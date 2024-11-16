@@ -1,1 +1,1 @@
-# python-resampling
+# python-wav-resampling
