@@ -1,0 +1,1 @@
+python ./src/resampling_run_arg.py --wave_path OriginalSound/samples/wav

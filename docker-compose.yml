@@ -1,0 +1,11 @@
+services:
+  py-resampling: 
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    working_dir: /workspaces
+    volumes:
+      - ./:/workspaces
+    container_name: py-resampling
+    stdin_open: true
+    tty: true
